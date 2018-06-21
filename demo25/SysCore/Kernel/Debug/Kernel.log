@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(31,5): warning MSB4211: The property "TargetPath" is being set to a value for the first time, but it was already consumed at "C:\Users\b26505\Downloads\demo25_1\demo25\SysCore\Kernel\Kernel.vcxproj (44,5)".
+  task.cpp
+..\Include\stdint.h(170): warning C4365: 'return': conversion from 'int' to 'uint8_t', signed/unsigned mismatch
+..\Include\stdint.h(175): warning C4365: 'return': conversion from 'int' to 'uint8_t', signed/unsigned mismatch
+task.cpp(562): warning C4100: 'space': unreferenced formal parameter
+..\Include\stdint.h(179): warning C4514: 'AssignBit': unreferenced inline function has been removed
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1240,5): error MSB3191: Unable to create directory "A:\". Could not find a part of the path 'A:\'.
