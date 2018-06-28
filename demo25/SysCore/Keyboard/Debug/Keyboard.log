@@ -1,0 +1,8 @@
+﻿  kybrd.cpp
+C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Include\ctype.h(39): warning C4005: 'isascii': macro redefinition
+  C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Include\ctype.h(28): note: see previous definition of 'isascii'
+kybrd.cpp(485): warning C4806: '|': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+kybrd.cpp(485): warning C4806: '&': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+kybrd.cpp(486): warning C4806: '|': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+kybrd.cpp(486): warning C4806: '&': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+  Keyboard.vcxproj -> C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Kernel\Debug\Keyboard.lib

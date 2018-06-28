@@ -1,0 +1,4 @@
+﻿  fat12.cpp
+C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Include\ctype.h(39): warning C4005: 'isascii': macro redefinition
+  C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Include\ctype.h(28): note: see previous definition of 'isascii'
+  Fat12.vcxproj -> C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Kernel\Debug\Fat12.lib

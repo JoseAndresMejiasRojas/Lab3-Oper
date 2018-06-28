@@ -1,0 +1,18 @@
+﻿  cpu.cpp
+  dma.cpp
+dma.cpp(67): warning C4100: 'dma': unreferenced formal parameter
+dma.cpp(74): warning C4100: 'dma': unreferenced formal parameter
+dma.cpp(142): warning C4244: 'argument': conversion from 'int' to 'unsigned char', possible loss of data
+  gdt.cpp
+  Hal.cpp
+Hal.cpp(163): warning C4244: 'argument': conversion from 'int' to 'uint16_t', possible loss of data
+  idt.cpp
+  pic.cpp
+  pit.cpp
+  tss.cpp
+tss.cpp(54): warning C4409: illegal instruction size
+tss.cpp(49): warning C4100: 'sel': unreferenced formal parameter
+tss.cpp(95): warning C4244: 'argument': conversion from 'uint32_t' to 'uint16_t', possible loss of data
+  user.cpp
+  Generating Code...
+  Hal.vcxproj -> C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Kernel\Debug\Hal.lib

@@ -1,7 +1,27 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(31,5): warning MSB4211: The property "TargetPath" is being set to a value for the first time, but it was already consumed at "C:\Users\b26505\Downloads\demo25_1\demo25\SysCore\Kernel\Kernel.vcxproj (44,5)".
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(31,5): warning MSB4211: The property "TargetPath" is being set to a value for the first time, but it was already consumed at "C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Kernel\Kernel.vcxproj (44,5)".
+  DebugDisplay.cpp
+DebugDisplay.cpp(62): warning C4189: 'cursorLocation': local variable is initialized but not referenced
+DebugDisplay.cpp(273): warning C4457: declaration of 'str' hides function parameter
+  DebugDisplay.cpp(246): note: see declaration of 'str'
+DebugDisplay.cpp(284): warning C4457: declaration of 'str' hides function parameter
+  DebugDisplay.cpp(246): note: see declaration of 'str'
+DebugDisplay.cpp(295): warning C4457: declaration of 'str' hides function parameter
+  DebugDisplay.cpp(246): note: see declaration of 'str'
+  entry.cpp
+  exception.cpp
+  fsys.cpp
+  main.cpp
+main.cpp(211): warning C4018: '<': signed/unsigned mismatch
+main.cpp(212): warning C4018: '<': signed/unsigned mismatch
+  mmngr_phys.cpp
+  mmngr_virtual.cpp
+  panic.cpp
+  sysapi.cpp
   task.cpp
-..\Include\stdint.h(170): warning C4365: 'return': conversion from 'int' to 'uint8_t', signed/unsigned mismatch
-..\Include\stdint.h(175): warning C4365: 'return': conversion from 'int' to 'uint8_t', signed/unsigned mismatch
 task.cpp(562): warning C4100: 'space': unreferenced formal parameter
-..\Include\stdint.h(179): warning C4514: 'AssignBit': unreferenced inline function has been removed
+  vmmngr_pde.cpp
+vmmngr_pde.cpp(75): warning C4100: 'e': unreferenced formal parameter
+  vmmngr_pte.cpp
+  Generating Code...
+c:\users\b54275\desktop\lab3-oper\demo25\syscore\kernel\exception.cpp(130): warning C4731: 'page_fault': frame pointer register 'ebp' modified by inline assembly code
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1240,5): error MSB3191: Unable to create directory "A:\". Could not find a part of the path 'A:\'.

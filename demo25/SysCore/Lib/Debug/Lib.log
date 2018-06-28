@@ -1,0 +1,10 @@
+﻿  cstd.cpp
+  stdio.cpp
+C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Include\ctype.h(39): warning C4005: 'isascii': macro redefinition
+  C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Include\ctype.h(28): note: see previous definition of 'isascii'
+stdio.cpp(137): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+stdio.cpp(161): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+stdio.cpp(224): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  string.cpp
+  Generating Code...
+  Lib.vcxproj -> C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Kernel\Debug\Lib.lib
