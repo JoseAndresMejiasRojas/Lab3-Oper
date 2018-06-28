@@ -301,7 +301,11 @@ void scheduler_initialize(void) {
 }
 
 /* schedule next task. */
+<<<<<<< HEAD
 void dispatch()
+=======
+void dispatch ()
+>>>>>>> ff5eb7539fd2cb8addde46e0e1ec7cb390b2c1f3
 {
 	/* We do Round Robin here, just remove and insert. */
 next_thread:
@@ -311,10 +315,17 @@ next_thread:
 	queue_insert(_currentThreadLocal);
 
 	// Escoger el proceso que está a la cabeza de la cola.
+<<<<<<< HEAD
 	_currentThreadLocal = queue_get();
 
 	/* make sure this thread is not blocked. */
 	if (_currentThreadLocal.state & THREAD_BLOCK_STATE)
+=======
+	_currentThreadLocal =  queue_get();
+
+	/* make sure this thread is not blocked. */
+	if (_currentThreadLocal.state & THREAD_BLOCK_STATE) 
+>>>>>>> ff5eb7539fd2cb8addde46e0e1ec7cb390b2c1f3
 	{
 
 		/* adjust time delta. */
