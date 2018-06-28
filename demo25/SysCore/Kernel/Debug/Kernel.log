@@ -1,5 +1,4 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(31,5): warning MSB4211: The property "TargetPath" is being set to a value for the first time, but it was already consumed at "C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Kernel\Kernel.vcxproj (44,5)".
-  DebugDisplay.cpp
+﻿  DebugDisplay.cpp
 DebugDisplay.cpp(62): warning C4189: 'cursorLocation': local variable is initialized but not referenced
 DebugDisplay.cpp(273): warning C4457: declaration of 'str' hides function parameter
   DebugDisplay.cpp(246): note: see declaration of 'str'
@@ -18,10 +17,13 @@ main.cpp(212): warning C4018: '<': signed/unsigned mismatch
   panic.cpp
   sysapi.cpp
   task.cpp
-task.cpp(562): warning C4100: 'space': unreferenced formal parameter
+task.cpp(571): warning C4100: 'space': unreferenced formal parameter
   vmmngr_pde.cpp
 vmmngr_pde.cpp(75): warning C4100: 'e': unreferenced formal parameter
   vmmngr_pte.cpp
   Generating Code...
 c:\users\b54275\desktop\lab3-oper\demo25\syscore\kernel\exception.cpp(130): warning C4731: 'page_fault': frame pointer register 'ebp' modified by inline assembly code
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1240,5): error MSB3191: Unable to create directory "A:\". Could not find a part of the path 'A:\'.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Kernel\Debug\Kernel.exe) does not match the Linker's OutputFile property value (A:\KRNL32.EXE). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(Kernel) does not match the Linker's OutputFile property value (KRNL32). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Lib.lib(cstd.obj) : warning LNK4254: section '.CRT' (40000040) merged into '.data' (C0000040) with different attributes
+  Kernel.vcxproj -> C:\Users\b54275\Desktop\Lab3-Oper\demo25\SysCore\Kernel\Debug\Kernel.exe

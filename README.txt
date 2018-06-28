@@ -1,0 +1,1 @@
+Montar el floppy antes de compilar.
