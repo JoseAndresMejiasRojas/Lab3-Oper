@@ -117,7 +117,8 @@ bool queue_insert(thread t) {
 
 /* remove thread. */
 thread queue_remove() {
-	return _readyQueue[_queue_first++];
+	// Retorna el thread de la posición queue_first y luego se suma una unidad.
+	return _readyQueue[ (_queue_first % THREAD_MAX)++ ];
 }
 
 /* get top of queue. */
@@ -342,6 +343,7 @@ next_thread:
 void _cdecl scheduler_tick() {
 
 	/* just run dispatcher. */
+	dispatch();	// Estaba vacío, solo se hizo lo que dice el comentario.
 }
 
 /* Timer ISR called by PIT. */
